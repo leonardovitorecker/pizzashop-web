@@ -12,6 +12,7 @@
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
@@ -23,6 +24,7 @@
     "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.53.1",
     "react-router-dom": "^6.21.0",
+    "sonner": "^1.2.4",
     "sort-by": "^1.2.0",
     "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7",
