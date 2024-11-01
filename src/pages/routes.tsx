@@ -1,18 +1,25 @@
 import { createBrowserRouter } from "react-router-dom";
-import { DashBoard } from "./app/DashBoard";
+import { DashBoard } from "./app/dashboard/DashBoard";
 import { SignIn } from "./auth/SignIn";
 import { AppLayout } from "./_layouts/App";
 import { AuthLayout } from "./_layouts/Auth";
 import { SignUp } from "./auth/SignUp";
+import { Orders } from "./app/orders/Orders";
+import { NotFount } from "./404";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+    errorElement: <NotFount />,
     children: [
       {
         path: "/",
         element: <DashBoard />,
+      },
+      {
+        path: "/orders",
+        element: <Orders />,
       },
     ],
   },
