@@ -19,8 +19,8 @@ O PizzaShop oferece uma série de funcionalidades para proprietários de restaur
 
 - Gerenciamento de Restaurantes: Registre e edite perfis de restaurantes, incluindo endereço, horário de funcionamento e menu.
 - Pedidos:
-- Os clientes podem explorar menus, fazer pedidos e acompanhar o status da entrega.
-- Os proprietários podem gerenciar pedidos, aprová-los, cancelá-los e despachá-los para entrega.
+-- Os clientes podem explorar menus, fazer pedidos e acompanhar o status da entrega.
+-- Os proprietários podem gerenciar pedidos, aprová-los, cancelá-los e despachá-los para entrega.
 - Entrega: Funções de gerenciamento para despacho e rastreamento de status dos pedidos.
 - Análise: Painel com insights como receita diária e mensal, quantidade de pedidos e produtos mais populares.
 - Autenticação: Sistema de login para clientes e proprietários de restaurantes.
