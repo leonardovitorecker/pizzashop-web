@@ -1,7 +1,7 @@
 import { signIn } from "@/api/signIn";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
-import { Label } from "@radix-ui/react-label";
+import { Label } from "@/components/ui/Label";
 import { useMutation } from "@tanstack/react-query";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";

@@ -1,7 +1,7 @@
 import { RegisterRestaurant } from "@/api/registerRestaurant";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
-import { Label } from "@radix-ui/react-label";
+import { Label } from "@/components/ui/Label";
 import { useMutation } from "@tanstack/react-query";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
@@ -45,7 +45,7 @@ export function SignUp() {
         },
       });
     } catch (error) {
-      toast.error("Erro ao cadastrar restaurante.");
+      toast.error("Erro ao cadastrar o restaurante");
     }
   }
   return (
@@ -66,7 +66,7 @@ export function SignUp() {
           </div>
           <form onSubmit={handleSubmit(handleSignUp)} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="restaurantName">Nome do estabecimento</Label>
+              <Label htmlFor="restaurantName">Nome do estabelecimento</Label>
               <Input
                 id="restaurantName"
                 type="text"
